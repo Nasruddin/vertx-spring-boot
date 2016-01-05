@@ -3,10 +3,12 @@ package org.javatab;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.StaticHandler;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * Created by nasir on 4/1/16.
  */
+@Configuration
 public class StaticServer extends AbstractVerticle {
 
     @Override
